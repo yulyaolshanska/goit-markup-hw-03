@@ -136,6 +136,7 @@ ul {
 }
 .hero-title {
   color: var(--white-text-color);
+  margin-bottom: 30px;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
@@ -170,6 +171,15 @@ ul {
 }
 
 /* Feauteres section  */
+
+.features-list {
+  display: flex;
+}
+.features-item:not(:last-child),
+.works-item:not(:last-child),
+.team-item:not(:last-child) {
+  margin-right: 30px;
+}
 .features-title {
   text-align: center;
 }
@@ -189,13 +199,18 @@ ul {
 .works {
   padding: 0px 200px 94px 200px;
 }
+.works-list {
+  display: flex;
+}
 
 /* Team section  */
 
 .team-section {
   background-color: var(--secondary-bcg-color);
 }
-
+.team-list {
+  display: flex;
+}
 .team-title {
   font-weight: 500;
   font-size: 16px;
